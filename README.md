@@ -17,6 +17,8 @@ There are few limitations with arrays like:
 1. It stores only similar data types (of course we have a workaround using object array which stores any value or object we want)
 1. They do not have readily available data structure methods like searching largest value, finding a particular value. We have to define them
 
+## Collections Chart
 
+![image](https://github.com/krishna-surisetty/collections_overview/blob/master/collections_chart.PNG)
 
 
