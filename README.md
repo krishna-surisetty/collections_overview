@@ -19,6 +19,24 @@ There are few limitations with arrays like:
 
 ## Collections Chart
 
-![image](https://github.com/krishna-surisetty/collections_overview/blob/master/collections_chart.PNG)
+![image](https://github.com/krishna-surisetty/collections_overview/blob/master/collections_actual_chart.PNG)
 
+## Collection Interface and Collections class
 
+While both are from java.util package, Collection is an interface which can be considered as root interface.
+The usual interfaces like List, Queue and Set extends this interface
+Collections class provide several utility methods (methods which are common, often reused functions) like sort, search etc., which are usually used to operate on a Collection
+
+## Common classes used that implement List, Set and Queue interface
+
+1. List - ArrayList, LinkedList
+1. Set - HashedSet, LinkedHashSet
+1. Queue - PriorityQuue
+
+## Map interface and why it is different from Collection interface part but part of Collection framework
+
+Map is a special type of interface which stores information in the form of key-value pair which clearly differentiates Map from other Collection types which store each single value.
+
+It makes sense when we think of it in that way. Collection interfaces has add(), remove() methods which take single input which doesn't work for Map and as Collection extends Iterable interface, it has an iterator to iterate over their elements which for Map does not work as it can't have Key iterator and value iterator
+
+To know more about why we use iterator refer to <https://github.com/krishna-surisetty/iterator_design_pattern>
